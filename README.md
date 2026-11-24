@@ -60,4 +60,4 @@ triangle(20, 5, 4, 0, 0, 30, true);
 
 ## License
 
-Public Domain (`Kivi Reactoplast`, 2021).
+Public Domain (`Kifa`, 2021).
