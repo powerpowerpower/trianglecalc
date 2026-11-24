@@ -57,6 +57,7 @@ triangle(20, 5, 4, 0, 0, 30, true);
   triangle(4, 4, 4, "", 1/0, [[[]]], []);
   ```
 * **Formula Reference:** A collection of trigonometric formulas for sides, angles, medians, altitudes, bisectors, and radii is included near the end of `triangle.scad`.
+* **Do Not Refactor / Compress:** The code intentionally avoids nested helper functions or loops for repeated calculation blocks. Due to OpenSCAD's variable scoping rules inside loops and nested definitions, folding these branches breaks variable visibility and `echo()`/`polygon()` output.
 
 ## License
 
